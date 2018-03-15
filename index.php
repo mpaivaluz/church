@@ -25,6 +25,7 @@ header("location: profile.php");
 <span><?php echo $error; ?></span>
 </form>
 <p>Caso não tenha o cadastro clique se cadastre <a href="Cadastro.php">Aqui</a></p>
+<p><a href="Esqueceusenha.php">Esqueceu sua senha?</a></p>
 </div>
 </div>
 </body>
