@@ -9,6 +9,8 @@
 </head>
 <body>
 <form id="formCadastro" name="formulario" action="enviarnovasenha.php" method="POST">
+					<label><h1 class="label">Confirme seu E-mail</h1></label><br>
+					<input type="email" name="Email" required placeholder="Email"><br>
 					<label for="txtSenha"><h1 class="senha">Nova Senha</h1></label>
                     <input id="txtSenha" name="password" type="password" required placeholder="Digite uma Senha" title="Senha" /> <br><br>
                     <label for="repetir_senha"><h1 class="senha">Confirmar Nova Senha</h1></label>

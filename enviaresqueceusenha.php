@@ -9,7 +9,7 @@ if (($row)=='0'){
 		echo "<script>window.location='esqueceusenha.php';alert('Email não existe');</script>";
 } else {
 $subject = "Link para alteração de email";
-$message = "<p>Clique para alterar a senha <a href='localhost/Projeto/enviarnovasenha.php'>aqui</a></p>"; 
+$message = "<p>Clique para alterar a senha <a href='localhost/Projeto/novasenha.php'>aqui</a></p>"; 
 //",Bem Vindo(a)";
 $headers = "To: <$email>" . "\r\n";
 $headers .= "From: Teste <mpaivaluz@gmail.com>" . "\r\n";
