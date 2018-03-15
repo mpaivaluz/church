@@ -8,6 +8,7 @@
 </script>
 </head>
 <body>
+	<button onclick="window.location.href='index.php'">Voltar</button>
 <form id="formCadastro" name="formulario" action="enviaresqueceusenha.php" method="POST">
 					<label><h1 class="label">Confirme seu e-mail</h1></label><br>
 					<input type="email" name="Email" required placeholder="Digite seu Email"><br>

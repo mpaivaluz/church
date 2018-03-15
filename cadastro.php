@@ -15,6 +15,7 @@ header("location: profile.php");
 </script>
 </head>
 <body>
+	<button onclick="window.location.href='index.php'">Voltar</button>
 <form id="formCadastro" name="formulario" action="ativarcadastro.php" method="POST">
 					<label><h1 class="label">Nome</h1></label>
 					<input type="text" name="Nome" required placeholder="Digite seu Nome"><br><br>
