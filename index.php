@@ -24,7 +24,7 @@ header("location: profile.php");
 <input name="submit" type="submit" value=" Login ">
 <span><?php echo $error; ?></span>
 </form>
-<p>Caso não tenha o cadastro clique se cadastre <a href="Cadastro.php">Aqui</a></p>
+<p>Caso não tenha o cadastro clique <a href="Cadastro.php">Aqui</a></p>
 <p><a href="Esqueceusenha.php">Esqueceu sua senha?</a></p>
 </div>
 </div>
