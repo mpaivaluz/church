@@ -1,6 +1,3 @@
-function displayMsg() {
-    alert("Hello World!");
-}
 function validaSenha (input){ 
     if (input.value != document.getElementById('txtSenha').value) {
     input.setCustomValidity('As senhas não conferem');

@@ -17,5 +17,4 @@ $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
 mail($email, $subject, $message, $headers);
 echo "<script>window.location='index.php';alert('email enviado com sucesso');</script>";
 }
-
 ?>
